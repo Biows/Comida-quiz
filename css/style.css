@@ -22,6 +22,10 @@ body{
     margin-bottom: 30px;
 }
 
+#name{
+    width: 80%;
+}
+
 input{
     text-align: center;
     padding: 10px;
@@ -57,7 +61,6 @@ button[name='btn_resp']{
     height: 300px;
     margin: 20px auto;
     border-radius: 50%;
-    image-resolution: ;
 }
 
 #copy p{
