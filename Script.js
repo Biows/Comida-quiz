@@ -209,7 +209,7 @@ function Show_res(cod) {
     document.querySelector('#res').innerHTML = `${quiz.name} você é <strong>${cod_resp}</strong>`
     let image = document.createElement('img')
     img.appendChild(image)
-    image.setAttribute('src',`/img/${img_src}`)
+    image.setAttribute('src',`${img_src}`)
 }
 
 function button_color(n=''){
