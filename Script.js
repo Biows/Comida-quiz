@@ -180,6 +180,7 @@ function alter_layout(n) {
     if (n === 0) {
         document.querySelector('#inicio').setAttribute('hidden','')
         document.querySelector('#quiz').removeAttribute('hidden')
+        document.querySelector('#titulo').setAttribute('hidden','')
         alter_quest()
     } else {
         document.querySelector('#quiz').setAttribute('hidden','')
